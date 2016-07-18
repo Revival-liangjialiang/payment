@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 本页标题栏 -->
+    <RelativeLayout
+        android:id="@+id/rl_wx_pay_callback_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#55000000">
+
+        <ImageView
+            android:id="@+id/iv_wx_pay_callback_back"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:src="@mipmap/title_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="微信支付回调页"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="这个界面用于显示第三方app通过微信支付的结果"
+        android:textColor="#ff000000"
+        android:textSize="20dp" />
+
+</RelativeLayout>
